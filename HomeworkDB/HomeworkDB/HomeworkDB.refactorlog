@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="e54c026e-0f7e-417b-b6c5-d3dd6bbea598" ChangeDateTime="04/24/2019 14:33:27">
+    <Property Name="ElementName" Value="[dbo].[Users].[Birthday]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Users]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Email" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="061b4de5-8448-4a04-9a10-e2cdcad16349" ChangeDateTime="04/24/2019 15:40:12">
+    <Property Name="ElementName" Value="[dbo].[UserRoles].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserRoles]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="57bf1810-df09-47c1-ae40-6f17ad0a1f40" ChangeDateTime="04/24/2019 15:51:02">
+    <Property Name="ElementName" Value="[dbo].[Blogs].[DateCreate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Blogs]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Description" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="018ac7eb-2851-4b9b-b857-d31c5fad1f80" ChangeDateTime="04/24/2019 15:51:09">
+    <Property Name="ElementName" Value="[dbo].[Blogs].[Description]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Blogs]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Title" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7b093a8f-ab75-49af-85db-d868a5ed8f3b" ChangeDateTime="04/24/2019 15:51:35">
+    <Property Name="ElementName" Value="[dbo].[Blogs].[Description]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Blogs]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Descriptions" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c29db047-ba80-4a52-8622-ce19ce199935" ChangeDateTime="04/24/2019 16:42:38">
+    <Property Name="ElementName" Value="[dbo].[Users].[Birthday]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Users]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateCreate" />
+  </Operation>
+</Operations>

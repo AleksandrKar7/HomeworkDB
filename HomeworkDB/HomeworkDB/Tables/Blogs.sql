@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[Blogs]
+(
+	[Id] INT NOT NULL CONSTRAINT PK_Blog PRIMARY KEY IDENTITY(1,1), 
+    [UserId] INT NOT NULL CONSTRAINT FK_Blogs_To_User FOREIGN KEY REFERENCES Users(id) , 
+    [Title] NVARCHAR(MAX) NOT NULL, 
+    [Descriptions] NVARCHAR(MAX) NOT NULL, 
+    [DateCreate] DATE NOT NULL
+)
+
+GO
